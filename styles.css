@@ -3,21 +3,25 @@ form {
     flex-direction: column;
     width: 50%;
     padding: 30px;
-    background-color: #e4b72d;
+    background-color: #f1c58a;
     min-width: 300px;
+    border-radius: 0px 30px 30px 0px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 div {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.4rem;
 }
 
 input {
     outline: none;
     border: none;
-    background-color: #e4b72d;
+    background-color: #f1c58a;
     border-bottom: 1px solid black;
     color: white;
 }
@@ -49,11 +53,14 @@ input {
 section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 img {
     width: 40%;
     min-width: 300px;
+    border-radius: 30px 0px 0px 30px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -66,4 +73,9 @@ img {
     img {
         min-width: 300px;
     }
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
 }
